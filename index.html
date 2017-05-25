@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+<body>
+<div id="container">
+	<div id="audio-image">
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 <input id="volume" type="range" min="0" max="10" value="5" />
+		 <br>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		 </div>
+		 <div class="clearfix"></div>
+     <ul id="playlist" class="hidden">
+			<li song="Eminem - Intro.mp3" cover="cover1.jpg" artist="Eminem">Intro.mp3</li>
+			<li song="Eminem - FACK.mp3" cover="cover1.jpg" artist="Eminem">FACK.mp3</li>
+			<li song="Eminem - The Way I Am.mp3" cover="cover1.jpg" artist="Eminem">The Way I Am.mp3</li>
+			<li song="Eminem - My Name Is.mp3" cover="cover1.jpg" artist="Eminem">My Name Is.mp3</li>
+			<li song="Eminem - Stan.mp3" cover="cover1.jpg" artist="Eminem">Stan.mp3</li>
+			<li song="Eminem - Lose Yourself.mp3" cover="cover1.jpg" artist="Eminem">Lose Yourself.mp3</li>
+			<li song="Eminem - Shake That.mp3" cover="cover1.jpg" artist="Eminem">Shake That.mp3</li>
+			<li song="Eminem - Sing For The Moment.mp3" cover="cover1.jpg" artist="Eminem">Sing For The Moment.mp3</li>
+			<li song="Eminem - Without Me.mp3" cover="cover1.jpg" artist="Eminem">Without Me.mp3</li>
+			<li song="Eminem - Like Toy Soldiers.mp3" cover="cover1.jpg" artist="Eminem">Like Toy Soldiers.mp3</li>
+			<li song="Eminem - The Real Slim Shady.mp3" cover="cover1.jpg" artist="Eminem">The Real Slim Shady.mp3</li>
+			<li song="Eminem - Mockingbird.mp3" cover="cover1.jpg" artist="Eminem">Mockingbird.mp3</li>
+		</ul>
+	</div>
+
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
